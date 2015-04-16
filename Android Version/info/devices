@@ -1,0 +1,90 @@
+		
+sw800-xhdpi :: ::: (land-xhdpi) : 2560*1600 - 320dp — CHECK FILE CHANGE !!
+
+sw768 :: ::: (land-xhdpi) 2560*1536 - 320dpi (Word images too small and wheel image sharpen)		— DONE 
+sw768 - xhdpi ::  :: (land_2048_1536) - 2048*1536 - 320dpi (Word images too small and wheel image sharpen and lag) — DONE	— (910x640 - 2.0)
+sw800dp-xhdpi : 1920*1200 - 240dp :: :: (land_480) :: ::  (Menu butons and Word images too small and wheel image sharpen)
+1536*1152 - not working according to dimensions (sw768-hdpi)
+
+1920x1152 - land_480 
+
+land-tvdpi  1280*800 - 213dp (Menu buttons to be resized and wheel image is not sharp or sw600?)
+land-mdpi : 1280*800 - 160dpi :: land_480_160 :: (Image not sharp or sw800?)	545x320 	— DONE
+land-mdpi :: sw_1280_768 ::  1280*768 - 240dpi (Image not sharp)
+land-mdpi : 1280*768 - 160dpi (Image not sharp)	 :: main_369 in mdpi ::
+land-xxhdpi - 1080*1920 - 480 dpi ( WHeel image not sharp;) :: 	— 1595x960	
+land-mdpi - 1024*768 - 160dp(not fixed due to conflcits); created  different files	— DONE	:: main_455 in mdpi ::
+land-mdpi - 1024*600 - 160dp(not fixed due to conflicts)	created different files	— DONE	:: main_369 in mdli ::
+
+1024x600 - 120dpi : land-ldpi	— EXCLUDE
+800*1280 - 213dp : land-tvdpi(flip not working?)	— DONE just flip not working.	— 741x426 — 
+800*1280 - 160dpi : land-mdpi		— DONE
+
+720*1280 - 320dp : land-xxhdpi :: land_720_1280 :: 	— DONE
+720*1280 - 160dp : land-mdpi (word image little inside)
+600*1024 - 240dp : land-hdpi(sharpen immges)	— DONE	:: main_600_1024 ::	
+600*1024 - 160dp : land-mdpi(sharpen images)	— DONE
+640*960 - 320dp : main_640;	— DONE						
+480*854 - 240dp : main_854_480	— DONE		— look flipped word image.				
+480*854 - 160dp : main_480_160	— DONE
+480*854 - 120dp : land-sw480-ldpi(fixes issues) ?? check		— EXCLUDE
+480*800 - 240dp : land 480_800 :: DONE
+480*800 - 160dp : 		—EXCLUDEEE
+480*640 - 240dp : sw_480_640	— DONE		— NOT DONE !!
+320*480 - 160dp : land-mdpi(find new layout folder)
+
+Samsung Galaxy S3 - sw360-land-xhdpi
+
+LG - sw360-land-xxhdpi
+Galaxy Tab 10.1 - sw-800-land	— NOT DONE
+
+1280x752 - 320dp,240dp -  sw_1280*752
+1080x1920 - 320dp
+540x960 - 240dp
+1200x1920 - 240dp — check menu image for sharpness
+768x1280 - 320dp :: main_1196
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+DEVICES WITH NO CHANGE : 
+main_480_640 : 480X640	- 240	— (577x480)
+main_480_800 : 480X800 - 240 - (737x480) — TESTED ON DEVICE S2 ( make it 40/35 for htc one v with sungrov)
+main_854_480 : 480X854 - 240 - (791x480)
+main_640 : 640X960 - 320 - (876X640)
+main_600_1024 : 600X1024 - 240 - (961X600)
+
+sw_600_mdpi : 1024x600 - 160	—— excluded
+
+480-hdpi : 720x1280 - 240  - (1217x720)
+360-xhdpi : 720x1280 - 320 - (1196x720)	- checked on device S3
+main_1196 : 768x1280 : - 320 - (1196x768)
+main_1280_800_213 : 800x1280 - 213 - (800x1216) 
+sw_800_1280_320 : 800x1280 - 320 - (1196x800)
+main_1080_1920 : 1920x1080 - 480 - (1794x1080) — TESTED ON DEVICE(nexus 5)
+main_1080_1920_s4 : for s4 users	— tested on device & g pro :: test again on s4
+main_1200_1920 : 1200x1920 - 320 - (1920x1104)
+main_1280_768 : 1280x768 - 240 - (1217x768)
+main_1280_800_213 : 1280x800 - 213 - (1280x736)
+main_800_1280_160 : 1280x800 - 160
+sw768_hdpi : 1536x1152 - 240 - (1536x1080)
+main_1080_1920 : 1920x1152 - 240 - (1920x1080)
+sw_800_xhdpi : 1920x1200 - 240 - (1920x1128)
+sw_768_xhdpi : 2048x1536 - 320 (1440x2048)
+sw_1536_2560 : 2560x1536 - 320 (1440x2560)
+
+sw_1600_2560 : 2560x1600 - 320 - 1504x2560

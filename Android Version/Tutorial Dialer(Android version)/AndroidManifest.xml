@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="de.vrallev.madar"
+      android:versionCode="1"
+      android:versionName="1.0"
+       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+       android:largeHeap="true"
+       android:noHistory="true">
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+     <translate
+    android:fromXDelta="-100%"
+    android:toXDelta="0"
+    android:duration="1250" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.VIBRATE"/>
+     
+     <supports-screens 
+ android:smallScreens="false"
+ android:normalScreens="true"
+ android:largeScreens="true"
+ android:xlargeScreens="true"
+ android:anyDensity="true"
+ android:requiresSmallestWidthDp="240"
+/>
+     
+  
+    <!-- <compatible-screens>
+       
+        <screen android:screenSize="normal" android:screenDensity="hdpi" />
+        <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+       
+      
+     
+        <screen android:screenSize="large" android:screenDensity="hdpi" />
+        <screen android:screenSize="large" android:screenDensity="xhdpi" />
+       
+      
+       
+        <screen android:screenSize="xlarge" android:screenDensity="hdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+       
+    </compatible-screens> -->
+    <compatible-screens>
+      <screen android:screenSize="normal" android:screenDensity="hdpi" />
+        <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+       
+      <screen android:screenSize="large" android:screenDensity="hdpi" />
+        <screen android:screenSize="large" android:screenDensity="xhdpi" />
+       
+      	<screen android:screenSize="xlarge" android:screenDensity="hdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+    	<screen android:screenSize="normal" android:screenDensity="480" />
+    	<screen android:screenSize="large" android:screenDensity="480" />
+    	<screen android:screenSize="xlarge" android:screenDensity="480" />
+    	
+</compatible-screens>
+    
+    
+    <application android:icon="@drawable/appicon" android:label="Madar Al-Huruf"
+         android:hardwareAccelerated="true">
+         
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".TutorialActivity"
+                  android:label="@string/app_name"
+                   android:screenOrientation="landscape">>
+           <!--   <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> --> 
+        </activity>
+        <activity android:name=".FlippedView"></activity>
+
+    </application>
+</manifest>
